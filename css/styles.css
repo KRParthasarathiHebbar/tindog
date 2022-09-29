@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat-Bold';
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* sections */
+.colored-section{background-color: #ff4c68;
+  color:#fff;
+}
+.white-section{background-color: #fff;}
+/* title section */
+#title {
+  padding: 3% 10%;
+  }
+h1{  text-align: left;}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+}
+
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+.iphoneimg {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  /* since img is inside columne div,30% does not mean a lot */
+}
+
+@media (max-width:1250px) {
+  .iphoneimg {
+    position: static;
+    transform: rotate(0);
+    width: 80%;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+
+}
+
+@media (min-width:1251px) and (max-width:1400px) {
+  .iphoneimg {
+    transform: rotate(0deg);
+    text-align: left;
+  }
+}
+
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* features section */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  /* with absolute the html flow will go so relative
+  z-index=1 not reqired*/
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 5%;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  padding: 7% 15%;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.image-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+  font-family: 'Ubuntu';
+}
+.pricing-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+
+.price {
+  font-family: "Ubuntu";
+}
+
+.pricing-colmn {
+  padding: 3% 2%;
+}
+
+/* cta section */
+.lasttext {
+  font-family: 'Ubuntu';
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+#cta {
+  padding: 6% 15%;
+}
+
+/* footer section */
+#footer {
+  margin-bottom: 3%;
+}
+
+.last {
+  font-size: 0.5rem;
+}
+
+.icon1 {
+  margin: 3% 2% 0%;
+}
